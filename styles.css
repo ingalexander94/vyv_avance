@@ -1,0 +1,64 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300;500;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Rubik", sans-serif;
+}
+
+.modal-content {
+  border: none;
+  box-shadow: 0px 0px 30px #00000029;
+  border-radius: 13px;
+}
+
+.modal-header {
+  background: #e2e2e2;
+  padding: 0 20px;
+}
+
+.modal-header > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 5px;
+}
+
+.modal-header > div.info {
+  column-gap: 30px;
+}
+
+.modal-header > div.info div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.modal-header img {
+  width: 50px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.modal-header h3 {
+  color: #414141;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.modal-header p {
+  font-size: 14px;
+  font-weight: 500;
+  margin: 0;
+}
+
+.modal-header span {
+  color: #707070;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.modal-header button {
+  position: relative;
+}
